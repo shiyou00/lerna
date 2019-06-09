@@ -1,5 +1,5 @@
 {
-  "name": "module-A",
+  "name": "@shiyou/module-A",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "6366a7a30ca282957930e1078648bc2fe810767f"
 }
