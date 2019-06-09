@@ -1,0 +1,33 @@
+0 silly argv { _: [ 'version' ], lernaVersion: '3.14.1', '$0': 'lerna' }
+1 notice cli v3.14.1
+2 verbose rootPath /Users/sy/Desktop/lerna
+3 info current version 0.0.1
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "v0.0.1-1-g540dacd" => {"lastTagName":"v0.0.1","lastVersion":"v0.0.1","refCount":"1","sha":"540dacd","isDirty":false}
+14 info Looking for changed packages since v0.0.1
+15 silly checking diff packages/publish_npm_pkg
+16 silly found diff in packages/publish_npm_pkg
+17 verbose filtered diff [ 'packages/publish_npm_pkg' ]
+18 verbose updated publish_npm_pkg
+19 verbose git-describe undefined => "v0.0.1-1-g540dacd"
+20 silly git-describe parsed => {"lastTagName":"v0.0.1","lastVersion":"v0.0.1","refCount":"1","sha":"540dacd","isDirty":false}
+21 info execute Skipping GitHub releases
+22 silly lifecycle No script for "preversion" in "root", continuing
+23 silly lifecycle No script for "preversion" in "publish_npm_pkg", continuing
+24 silly lifecycle No script for "version" in "publish_npm_pkg", continuing
+25 silly lifecycle No script for "version" in "root", continuing
+26 silly gitAdd [ '/Users/sy/Desktop/lerna/packages/publish_npm_pkg/package.json',
+26 silly gitAdd   '/Users/sy/Desktop/lerna/lerna.json' ]
+27 error Error: Command failed: git add -- packages/publish_npm_pkg/package.json lerna.json
+27 error fatal: Pathspec 'packages/publish_npm_pkg/package.json' is in submodule 'packages/publish_npm_pkg'
+27 error
+27 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+27 error     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
