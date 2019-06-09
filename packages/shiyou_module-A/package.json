@@ -1,6 +1,6 @@
 {
-  "name": "@shiyou/module-A",
-  "version": "1.0.1",
+  "name": "shiyou_module-A",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "gitHead": "6366a7a30ca282957930e1078648bc2fe810767f"
+  "license": "ISC"
 }
